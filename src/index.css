@@ -16,7 +16,7 @@
   justify-content: space-between;
   padding: 20px;
 }
-.appbar span{
+.appbar span {
   font-size: 25px;
   font-weight: 700;
   color: whitesmoke;
@@ -34,4 +34,35 @@ footer{
   padding: 10px;
   text-align: center;
   color: whitesmoke;
+}
+.banner{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.banner >h1{
+  font-size: 50px;
+}
+.banner > p{
+  font-size: 20px;
+}
+.actions-wrap{
+  transform: scale(0.9);
+}
+.btn-outline{
+  color: crimson;
+  background-color: transparent;
+  margin: 10px;
+  height: 50px;
+  width: 100px;
+}
+.btn-container{
+background-color: crimson;
+color: white;
+margin: 10px;
+height: 50px;
+width: 100px;
 }
